@@ -41,6 +41,8 @@ cd html-css-extractor
 
 ```bash
 python extractor.py
+termux-setup-storage
+cp -r extracted_site /data/data/com.termux/files/home/storage/shared/
 ```
 
 - Enter the *website URL* when prompted  
@@ -49,14 +51,5 @@ python extractor.py
 ---
 
 📂 Access Extracted Files on Your Phone
-
-To access the saved extracted files easily, run these commands in Termux:
-
-
-termux-setup-storage
-
-cp -r extracted_site /data/data/com.termux/files/home/storage/shared/
-
-Copy the extracted_site folder to your phone's Internal Storage
 
 Now Successfully Done Check Your Files And Get Html Code ✅
