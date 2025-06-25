@@ -1,9 +1,8 @@
-markdown
-📱✨ *HTML + CSS Copy Tool v2.1* ✨📱
+📱✨ HTML + CSS Copy Tool v2.1 ✨📱
 
 <div align="center">
 
-![🔥](https://em-content.zobj.net/source/skype/289/fire_1f525.png)  
+![🔥](https://i.postimg.cc/KYp3rG11/IMG-20250223-WA0031.jpg)  
 *Developed by ProxArmy*  
 🔥 Your Trusted Web Extractor 🔥
 
@@ -11,15 +10,15 @@ markdown
 
 ---
 
-⚙️ *Requirements*
+⚙️ Requirements
 
-- 📱 *Android device (Recommended: Redmi Fire or higher)*  
-- 📲 *Termux app installed*  
-- 🔥 *Android 7.0+ (Nougat) or higher for best performance*
+- 📱 Android device (Recommended: Redmi Fire or higher)  
+- 📲 Termux app installed  
+- 🔥 Android 7.0+ (Nougat) or higher for best performance
 
 ---
 
-🚀 *Installation & Setup*
+🚀 Installation & Setup
 
 ```bash
 Update & upgrade packages
@@ -38,7 +37,7 @@ cd html-css-extractor
 
 ---
 
-▶️ *How to Run*
+▶️ How to Run
 
 ```bash
 python extractor.py
@@ -49,23 +48,15 @@ python extractor.py
 
 ---
 
-📞 *Join Our Channel*
+📂 Access Extracted Files on Your Phone
 
-Press *2* inside the tool to join the owner’s WhatsApp channel for:  
-✅ Support  
-✅ Updates  
-✅ Exclusive tools  
+To access the saved extracted files easily, run these commands in Termux:
 
----
 
-📌 *Notes*
+termux-setup-storage
 
-- ⚡ Best used on Termux with Android 7.0+  
-- 📶 Stable internet connection recommended  
-- 🛠️ If any modules missing, run:
+cp -r extracted_site /data/data/com.termux/files/home/storage/shared/
 
-```bash
-pip install requests bs4
-```
+Copy the extracted_site folder to your phone's Internal Storage
 
----
+Now Successfully Done Check Your Files And Get Html Code ✅
